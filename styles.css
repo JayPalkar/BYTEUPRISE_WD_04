@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* justify-content: center; */
+    /* text-align: center; */
+    font-family: 'poppins';
+}
+
+p{
+    font-weight: 800;
+}
+
+body{
+    padding: 2%;
+    background-image: url('../images/Clear.jpg');
+    background-size: cover;
+    background-position: center;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    height: 100vh;
+}
+
+
+.SearchContainer{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+#cityName{
+    padding: 5px;
+    font-size: 1.5em;
+    border-radius: 50px;
+}
+
+#searchbtn{
+    padding: 10px 15px;
+    border-radius: 100%;
+}
+
+#searchbtn:focus{
+    background-color: black;
+    color: white;
+}
+
+.container{
+    padding: 2%;
+    margin-top: 20px;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.2) 50%);
+    border-radius: 50px;
+}
+
+.row{
+    padding: 5%, 10%;
+}
+
+.col-md-6{
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 770px){
+    .container {
+        text-align: left;
+    }
+}
+
+#FetchingTxt{
+    color: white;
+    font-size: 2em;
+    font-weight: 1000;
+}
